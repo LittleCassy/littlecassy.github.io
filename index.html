@@ -1,13 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-        <title>Ms Casandra's Cove</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/Estilos.css" type="text/css">
+    <title>Práctica CSS</title>
+</head>
 
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+<body>
+
+    <div class="Fondo">
+        <header>
+            <div class="Logo">
+
+            </div>
+
+            <div class="Titulo">
+                <b>La locura nunca muere</b>
+            </div>
+
+
+            <div class="Login">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>User:</td>
+                            <td><input type="text" size="60" name="Usuario" /></td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" size="60" name="Password" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" name="enviar" value="Enviar">
+            </div>
+        </header>
+    </div>
+
+    <aside class="MenuLateral">
+        <nav class="Enlaces">
+            <h4>Menú</h4>
+            <ul>
+                <li><a href="index.html" target="_self">Sobre mi</a></li>
+                <li><a href="Paginas/Herramientas.html" target="_self">Herramientas</a></li>
+                <li><a href="../Paginas/Galeria.html" target="_self">Fotos</a></li>
+                <li><a href="../Paginas/Servicios.html" target="_self">Servicios</a></li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+        <nav class="Titulos">
+            <h4>Mis trabajos</h4>
+            <ul>
+                <li>Project Order</li>
+                <li>An Unexpected Invitation</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="Core">
+        <div class="ContenidoCore">
+            <h2>Bienvenid@ a la locura. Disfruta mientras puedas.</h2>
+            <hr>
+            <p>
+                ¿Que es la locura? 
+
+                Como diría el villano de <em>Far Cry 3</em> Vaas Montenegro: <blockquote><em><b>La locura es hacer una y otra vez la misma mierda, y esperar que algo cambie.</b></em></blockquote> 
+                Es justo por eso que estamos aquí, tu y yo, querido lector. Estamos aquí buscando algo nuevo. Algo trepidante. Algo de pesadilla. Algo de sueño lúcido.
+                Algo sacado de la mente mas caótica del Dev, directamente servido a tu ordenador. ¿Suena bien? ¿Suena apetecible para tu selecto paladar? Busca en cada rincón, como Alicia
+                recién caida del espejo. Busca en cada rincón, bebe cada té, habla con cada personaje de este retorcido mundo. Explora. Aprende. Cuidado con no perderte. ¿Te gusta? ¿Quieres mas?
+                <br><br>
+                Ay, querido lector, que equivocado estás. 
+                <br><br>
+                Porque una vez que entras en este Mundo de las Maravillas corrompido...
+                <br><br>
+                No sales jamás.
+            </p>
+            <hr>
+            <audio src="Multimedia/We All Lift Together From Warframe.mp3" controls loop preload type="audio/mpeg"></audio>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://littlecassy.itch.io" target="_blank">Donde descargar</a></li>
+            <li><a href="https://www.instagram.com/littlemcjack/" target="_blank">Instagram</a></li>
+            <li>Téfono: 672217939</li>
+            <li>Email: casandramarcado@gmail.com</li>
+        </ul>
+
+        <p>
+            @Copyright Madness Project. Not TM, but is cool to have it.
+        </p>
+    </footer>
+</body>
 
 </html>
