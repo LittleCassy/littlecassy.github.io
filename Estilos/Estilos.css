@@ -1,0 +1,161 @@
+/*General*/
+
+
+
+body 
+{
+    background-color: black;
+}
+
+
+/*Header*/
+
+header
+{
+    background-image: url("../Imagenes/1500x500.png");
+    background-size: 100% 300px;
+    border-radius: 45px;
+    height: 300px;
+    width: 100%;
+}
+
+@font-face 
+{
+font-family: "MadJoe";
+src: url("../Fuentes/Madjoe.ttf");
+}
+
+.Titulo
+{
+    font-family: MadJoe;
+    color: white;
+    margin-top: 225px;
+    margin-left: 15%;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+}
+
+.Logo
+{
+    background-image: url("../Imagenes/logo (1).png");
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+.Login
+{
+    font-family: MadJoe;
+    color: white;
+    margin-top: 200px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.473);
+    float: right;
+}
+
+.Login>table
+{
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.Login>input
+{
+    font-family: MadJoe;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+/* /////////////////////////////////////// */
+/* Body */
+
+.MenuLateral{
+    float: left;
+    width: 15%;
+    margin-left: -150px;
+    margin-top: 50px;
+    font-family: MadJoe;
+}
+
+.MenuLateral>nav{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.MenuLateral h4{
+    margin-left: 20px;
+}
+
+.Core{
+    float: right;
+    margin-top: 30px;
+    width: 80%;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.ContenidoCore>h2{
+    font-family: MadJoe;
+    text-align: center;
+}
+
+.ContenidoCore>h3{
+    font-size: 25px;
+    font-family: MadJoe;
+    margin-left: 50px;
+}
+
+.ContenidoCore>p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ContenidoCore>hr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ContenidoCore{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+figure>img{
+    margin-right: 30px;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    /*margin-top: 400px;*/
+    float: left;
+    text-align: center;
+}
+
+footer>ul>li{
+    list-style: none;
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.TablaHorario{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+}
